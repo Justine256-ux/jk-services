@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JK Phone Repair</title>
+    <style>
+        /* This is the CSS inside the HTML so you only need one file */
+        body { 
+            margin: 0; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: #0f172a; 
+            color: white; 
+            line-height: 1.6;
+        }
+        header { 
+            background: linear-gradient(90deg, #2563eb, #22c55e); 
+            padding: 40px 20px; 
+            text-align: center; 
+        }
+        header h1 { margin: 0; font-size: 36px; }
+        header p { font-size: 18px; opacity: 0.9; }
+        
+        nav { 
+            display: flex; 
+            justify-content: center; 
+            background: #111827; 
+            padding: 15px; 
+            position: sticky;
+            top: 0;
+        }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #22c55e; }
+
+        section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+        h2 { text-align: center; color: #22c55e; margin-bottom: 30px; }
+
+        .services { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 20px; 
+        }
+        .card { 
+            background: #1f2937; 
+            padding: 25px; 
+            border-radius: 12px; 
+            text-align: center;
+            transition: transform 0.3s;
+            border: 1px solid #374151;
+        }
+        .card:hover { transform: translateY(-5px); border-color: #22c55e; }
+        .card h3 { color: #22c55e; margin-top: 0; }
+
+        .contact-box {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px dashed #2563eb;
+        }
+
+        footer { background: #111827; text-align: center; padding: 20px; margin-top: 40px; }
+        
+        .btn { 
+            background: #22c55e; 
+            border: none; 
+            padding: 15px 30px; 
+            color: white; 
+            cursor: pointer; 
+            border-radius: 8px; 
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .btn:hover { background: #16a34a; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>JK Phone Repair</h1>
+    <p>Professional Phone Repair & Software Solutions</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p style="text-align: center;">We are experts in phone repair, software installation, flashing, and maintenance. We provide fast, reliable, and affordable services in Uganda.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Screen Replacement</h3>
+            <p>Fix broken or damaged screens for all smartphone brands.</p>
+        </div>
+        <div class="card">
+            <h3>Phone Flashing</h3>
+            <p>Professional software installation and OS updates.</p>
+        </div>
+        <div class="card">
+            <h3>Charging Issues</h3>
+            <p>Repairing ports and power management problems.</p>
+        </div>
+        <div class="card">
+            <h3>Unlocking</h3>
+            <p>Network unlocking and password removal services.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-box">
+        <h2>Contact Us</h2>
+        <p><strong>Location:</strong> Kira, Opposite Roundabout</p>
+        <p><strong>Phones:</strong> 0742090971 / 0771021741</p>
+        <a href="https://wa.me/256742090971" class="btn">Chat on WhatsApp</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 JK Phone Repair. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
